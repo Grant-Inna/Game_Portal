@@ -38,86 +38,39 @@
 <body>
 
 <div class="container">
-	
-	<div class="row nmb">
-		<header class="sixteen columns">
-			<div class="row logo-social">
-				<hgroup class="eight columns alpha">
-					<h1 class="logo nmb"><a href="#"><img src="images/logo.png" alt="IndiGamer" /></a></h1>
-				</hgroup><!-- /hgroup -->
-				
-				<p class="eight columns omega social-links">
-					<a href="#" class="icn facebook">Facebook</a>
-					<a href="#" class="icn twitter">Twitter</a>
-					<a href="#" class="icn dribbble">Dribbble</a>
-					<a href="#" class="icn wordpress">WordPress</a>
-					<a href="#" class="icn rss">RSS</a>					
-				</p><!-- /social -->
-			</div><!-- /logo-social -->	
-			
-			<div class="row nav-search">
-				<nav id="navigation" class="twelve columns alpha">
-					<ul class="nav group">
-						<li>
-							<a href="homepage.php">Home</a>
-							<ul>
-								<li><a href="homepage_alt.php">Homepage Alternative 1</a></li>
-								<li><a href="homepage_alt2.php">Homepage Alternative 2</a></li>
-								<li><a href="homepage_narrow1.php">Homepage Narrow sidebar 1</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="listing_2col.php">Listing 2 columns</a>
-							<ul>
-								<li><a href="listing_3col.php">Listing 3 columns</a></li>
-								<li><a href="listing_4col.php">Listing 4 columns</a></li>
-								<li><a href="listing_sidebar.php">Listing w/ Sidebar</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="post.php">Post template</a>
-						</li>
-						<li>
-							<a href="fullwidth.php">Fullwidth</a>
-						</li>	
-					</ul>
-				</nav><!-- /nav -->
-				<form method="post" action="action.php" id="search" class="four columns omega">
-					<p><input type="text" title="Search" /></p>
-				</form>
-			</div><!-- /nav-search -->		
-		</header><!-- /header -->
-	</div><!-- row -->
-	<div class="row slider">
-		<div id="home-slider" class="flexslider">
-			<ul class="slides">
-				<li>
-					<div class="slide-content">
-						<span class="stars four-stars">5 stars</span>
-						<time datetime="2012-10-15">// October 15th, 2012</time>							
-						<h2><a href="#">Single-player Dead Space games too scary, says EA</a></h2>
-						<p class="categories"><a href="#">xbox</a>, <a href="#">adventure</a></p>
-						<p class="excerpt">Mauris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit...</p>
-						<p class="read-more"><a href="#" class="button">Read more</a>
-					</div><!-- /slide-content -->
-					<img src="http://placehold.it/940x380&amp;text=Slider1" class="scale-with-grid" alt="Slider 1" />
-				</li>
-				<li><img src="http://placehold.it/940x380&amp;text=Slider2" class="scale-with-grid" alt="Slider 2" /></li>	    	
-				<li><img src="http://placehold.it/940x380&amp;text=Slider3" class="scale-with-grid" alt="Slider 3" /></li>
-				<li><img src="http://placehold.it/940x380&amp;text=Slider4" class="scale-with-grid" alt="Slider 4" /></li>
-				<li><img src="http://placehold.it/940x380&amp;text=Slider5" class="scale-with-grid" alt="Slider 5" /></li>	    	
-			</ul>
-		</div><!-- /flexslider -->
-		<div id="home-carousel" class="flexslider">
-			<ul class="slides">
-				<li><img alt="" src="http://placehold.it/188x109&amp;text=img1" /></li>
-				<li><img alt="" src="http://placehold.it/188x109&amp;text=img2" /></li>
-				<li><img alt="" src="http://placehold.it/188x109&amp;text=img3" /></li>
-				<li><img alt="" src="http://placehold.it/188x109&amp;text=img4" /></li>
-				<li><img alt="" src="http://placehold.it/188x109&amp;text=img5" /></li>
-			</ul>
-		</div>	
-	</div><!-- /row -->
+
+
+    <div id="block-for-slider">
+        <div id="viewport">
+            <ul id="slidewrapper">
+                <li class="slide">
+                    <img src="http://www.sunhome.ru/i/wallpapers/77/kartinki-igri-crysis-2.orig.jpg" alt="1" class="slide-img"></li>
+                <li class="slide">
+                    <img src="http://3.bp.blogspot.com/-DU-8RRk16rw/U7Fe-k4uWgI/AAAAAAAACAo/2nGeh7Nblpg/s1600/titanfall1.jpg" alt="2" class="slide-img"></li>
+                <li class="slide">
+                    <img src="http://s.gama-gama.ru/shopwindow/2170/a9d49bd5704923a40a473a090d0393ba.jpg" alt="3" class="slide-img"></li>
+                <li class="slide">
+                    <img src="http://coop-land.ru/uploads/posts/2013-11/1385041610_ryse_son_of_rome_game-wide.jpg" alt="4" class="slide-img"></li>
+            </ul>
+
+            <div id="prev-next-btns">
+                <a id="prev-btn" href="#"></a>
+                <a id="next-btn" href="#"></a>
+            </div>
+            <div id="home-carousel" class="flexslider">
+               <!-- <ul class="flex-direction-nav">
+&lt;!&ndash;                    <li><a class="flex-prev" href="#">Previous</a></li>
+                    <li><a class="flex-next" href="#">Next</a></li>&ndash;&gt;
+                </ul>-->
+            </div>
+           <!-- <ul id="nav-btns">
+                <li class="slide-nav-btn"></li>
+                <li class="slide-nav-btn"></li>
+                <li class="slide-nav-btn"></li>
+                <li class="slide-nav-btn"></li>
+            </ul>-->
+        </div>
+    </div>
 	
 	<div class="row">
 		<div class="sixteen columns">			
@@ -555,6 +508,7 @@
 <script src="js/jquery.formLabels1.0.js"></script>
 <script src="js/jquery.equalHeights.js"></script>
 <script src="js/jquery.scripts.js"></script>
+<script src="js/slider.js"></script>
 
 <!--[if (gte IE 6)&(lte IE 8)]>
 	<script type="text/javascript" src="js/selectivizr-min.js"></script>
