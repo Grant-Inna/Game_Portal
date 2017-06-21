@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
     body {
-        background: rgba(255, 255, 255, .4) url(../images/piece.jpg) repeat;
+        background: rgba(255, 255, 255, .4) url(../images/4.png) repeat;
         /*background-size: cover;*/
     }
     #block-for-slider {
