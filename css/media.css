@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 767px) {
   body {
-    background: rgba(255, 255, 255, .4) url(../images/4.png) repeat;
+    background: rgba(255, 255, 255, .4) url(../images/4.png) center repeat;
     /*background-size: cover;*/
   }
 
