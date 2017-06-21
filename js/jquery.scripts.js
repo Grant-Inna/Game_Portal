@@ -92,10 +92,10 @@ jQuery(document).ready(function ($) {
 	  });	
 	 }
 	
-	// Fancybox
+	/*// Fancybox
 	$('.fb').fancybox({
 		padding: 0
-	});
+	});*/
 });
 
 
