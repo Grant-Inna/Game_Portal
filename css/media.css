@@ -19,7 +19,11 @@
 
 @media screen and (max-width: 570px) {
   body {
-    background: rgba(255, 255, 255, .4) url(../images/ipodBG.jpg) no-repeat bottom center;
+    background: rgba(255, 255, 255, .4) fixed;
+  }
+
+  .container {
+    background: url(../images/ipodBG.jpg) no-repeat bottom center;
     background-size: cover;
   }
 }
