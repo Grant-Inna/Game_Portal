@@ -1,29 +1,27 @@
+/*
+
+@media screen and (max-width: 670px) {
+    body {
+        background: rgba(255, 255, 255, .4) url(../images/iphone6BG.jpg) no-repeat bottom center;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    body {
+        background: rgba(255, 255, 255, .4) url(../images/iphone6BG.jpg) no-repeat bottom center;
+        background-size: cover;
+    }
+}*/
+
 @media screen and (max-width: 768px) {
   body {
-    background: rgba(255, 255, 255, .4) url(../images/ipadBG.jpg) no-repeat bottom center;
-    background-size: cover;
+    background: rgba(255, 255, 255, .4) url(../images/piece.jpg) repeat;
+    /*background-size: cover;*/
   }
 
   #block-for-slider {
     width: 100%;
     margin: 40px auto 100px;
-  }
-}
-
-@media screen and (max-width: 670px) {
-  body {
-    background: rgba(255, 255, 255, .4) url(../images/iphone6BG.jpg) no-repeat bottom center;
-    background-size: cover;
-  }
-}
-
-@media screen and (max-width: 570px) {
-  body {
-    background: rgba(255, 255, 255, .4) fixed;
-  }
-
-  .container {
-    background: url(../images/ipodBG.jpg) no-repeat bottom center;
-    background-size: cover;
   }
 }
