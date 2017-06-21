@@ -39,7 +39,7 @@ table {
 /* #Basic Styles
 ================================================== */
 body {
-    background: rgba(255, 255, 255, .4) url(images/2.jpg) no-repeat fixed bottom center;
+    background: rgba(255, 255, 255, .4) url(../images/2.jpg) no-repeat fixed bottom center;
     background-size: cover;
     font: 13px/18px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
@@ -110,8 +110,8 @@ h6 {
 }
 
 .overlay {
-    background: #000 url(images/zoom.png) no-repeat center;
-    background: rgba(0, 0, 0, 0.5) url(images/zoom.png) no-repeat center;
+    background: #000 url(../images/zoom.png) no-repeat center;
+    background: rgba(0, 0, 0, 0.5) url(../images/zoom.png) no-repeat center;
     width: 50px;
     height: 30px;
     position: absolute;
@@ -303,8 +303,7 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus {
     text-align: left;
     width: 24px;
     height: 24px;
-    background-image: url(images/social-icons.png);
-    background-repeat: no-repeat;
+    background: url(../images/social-icons.png) no-repeat;
     display: inline-block;
     margin-right: 5px;
     text-indent: -999em;
@@ -423,7 +422,7 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus {
 /* #Navigation
 ================================================== */
 .nav-search {
-    background: url(images/bg_nav.png) no-repeat;
+    background: url(../images/bg_nav.png) no-repeat;
     height: 60px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
@@ -446,7 +445,7 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus {
     color: #fff;
     font-size: 13px;
     padding: 23px;
-    background: url(images/bg_nav_divider.png) no-repeat right;
+    background: url(../images/bg_nav_divider.png) no-repeat right;
     text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
 }
 
@@ -551,23 +550,23 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus {
 }
 
 .five-stars {
-    background: url(images/sprite.png) no-repeat 0 0;
+    background: url(../images/sprite.png) no-repeat 0 0;
 }
 
 .four-stars {
-    background: url(images/sprite.png) no-repeat 0 -15px;
+    background: url(../images/sprite.png) no-repeat 0 -15px;
 }
 
 .three-stars {
-    background: url(images/sprite.png) no-repeat 0 -30px;
+    background: url(../images/sprite.png) no-repeat 0 -30px;
 }
 
 .two-stars {
-    background: url(images/sprite.png) no-repeat 0 -45px;
+    background: url(../images/sprite.png) no-repeat 0 -45px;
 }
 
 .one-stars {
-    background: url(images/sprite.png) no-repeat 0 -60px;
+    background: url(../images/sprite.png) no-repeat 0 -60px;
 }
 
 /* #Items
@@ -759,7 +758,7 @@ ul.verdict li.final {
     border-bottom: none;
     text-align: center;
     font-size: 12px;
-    background: url(images/bg.png) no-repeat center -100px;
+    background: url(../images/bg.png) no-repeat center -100px;
 }
 
 ul.verdict li.final span {
@@ -778,11 +777,11 @@ ul.verdict p {
 }
 
 ul.verdict .good h4 {
-    background: url(images/sprite.png) no-repeat 0 -78px;
+    background: url(../images/sprite.png) no-repeat 0 -78px;
 }
 
 ul.verdict .bad h4 {
-    background: url(images/sprite.png) no-repeat 0 -115px;
+    background: url(../images/sprite.png) no-repeat 0 -115px;
 }
 
 .meter {
@@ -1002,7 +1001,7 @@ ul.verdict .bad h4 {
     bottom: -170px;
     height: 37px;
     padding-top: 23px;
-    background: url(images/bg_paging.png) no-repeat;
+    background: url(../images/bg_paging.png) no-repeat;
 }
 
 .slide-content {
@@ -1034,7 +1033,7 @@ ul.verdict .bad h4 {
 /* #Footer styles
 ================================================== */
 #footer-wrap {
-    background: #1e2026 url(images/bg_footer.png) no-repeat bottom center;
+    background: #1e2026 url(../images/bg_footer.png) no-repeat bottom center;
     border-top: solid 1px #30333c; /*padding:50px 0 0 0;*/
 }
 
@@ -1361,12 +1360,12 @@ ul.verdict .bad h4 {
 
 #prev-btn {
     left: -50px;
-    background: url("./images/leftArrow.png") center 80% no-repeat;
+    background: url("../images/leftArrow.png") center 80% no-repeat;
 }
 
 #next-btn {
     right: -50px;
-    background: url("./images/rightArrow.png") center 80% no-repeat;
+    background: url("../images/rightArrow.png") center 80% no-repeat;
 }
 
 #nav-btns {
@@ -1409,3 +1408,7 @@ ul.verdict .bad h4 {
     max-width: 100px;
     max-height: 90px
 }
+
+
+
+@import "media.css";
