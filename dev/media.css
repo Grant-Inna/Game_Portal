@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     body {
         background: rgba(255, 255, 255, .4) url(../images/4.png) repeat;
         /*background-size: cover;*/
@@ -6,6 +6,9 @@
     #block-for-slider {
         width: 100%;
         margin: 40px auto 100px;
+    }
+    .ci_widget_sponsors a > img {
+        max-width: 281px;
     }
 }
 /*
