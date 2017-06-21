@@ -1332,14 +1332,17 @@ ul.verdict .bad h4 {
 /* #Media Queries
 ================================================== */
 
+/*   ============   SLIDER   ============   */
+
 #block-for-slider {
   width: 100%;
   margin: 100px auto;
+  background: rgba(255, 255, 255, 0.3) !important;
 }
 
 #viewport {
   width: 100%;
-  border-radius: 3px;
+  border-radius: 1px;
   position: relative;
   overflow: hidden;
   -webkit-user-select: none;
@@ -1378,6 +1381,7 @@ ul.verdict .bad h4 {
   list-style: none;
   display: inline;
   float: left;
+  border-radius: 3px;
 }
 
 .slide-img {
@@ -1458,7 +1462,10 @@ ul.verdict .bad h4 {
   max-height: 90px;
 }
 
-@import "media.css";
+ul {
+  -webkit-margin-after: 0em !important;
+  -webkit-margin-before: 0em !important;
+}
 
 @media only screen and (max-width: 959px) {
   #navigation > ul {

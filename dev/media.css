@@ -3,12 +3,10 @@
         background: rgba(255, 255, 255, .4) url(../images/4.png) center repeat;
         /*background-size: cover;*/
     }
-    #viewport {
-
-    }
     #block-for-slider {
         width: 100%;
         margin: 40px auto 100px;
+        background: rgba(255, 255, 255, 0.3);
     }
     .ci_widget_sponsors a > img {
         max-width: 281px;
