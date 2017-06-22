@@ -32,8 +32,12 @@
   .logo-social {
       flex-direction: column;
       display: flex;
-      height: 300px;
+      height: 100px;
       justify-content: space-around;
       align-items: center;
   }
+    .contentBlock {
+        flex-direction: column-reverse;
+        display: flex;
+    }
 }

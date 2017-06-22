@@ -1106,8 +1106,8 @@ ul.verdict .bad h4 {
 
 /* Top Rated */
 .ci_widget_top ul li {
-    padding-bottom: 20px;
-    padding-top: 19px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .ci_widget_top img {
@@ -1300,7 +1300,7 @@ ul.verdict .bad h4 {
 
 #block-for-slider {
     width: 100%;
-    margin: 100px auto;
+    margin: 70px auto;
     background: rgba(255, 255, 255, 0.3) !important;
     border-radius: 8px
 }
@@ -1422,3 +1422,15 @@ ul.verdict .bad h4 {
      -webkit-margin-after: 0em !important;
      -webkit-margin-before: 0em !important;
  }
+
+
+.header {
+    background: #1e2026 url(../images/bg_footer.png) no-repeat bottom center;
+    border-bottom: solid 1px #30333c;
+}
+.logo-social {
+    display: flex;
+    height: 60px;
+    justify-content: flex-start;
+    align-items: center;
+}
