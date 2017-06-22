@@ -1,4 +1,4 @@
-# Indigamer
+# Game portal
 Based on Indigamer - Responsive Review Site Template
 
 
