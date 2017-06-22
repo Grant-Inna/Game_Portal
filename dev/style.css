@@ -41,6 +41,7 @@ table {
 body {
     background: rgba(255, 255, 255, .4) url(../images/2.jpg) no-repeat fixed bottom center;
     background-size: cover;
+    box-shadow: inset 0 0 20px 5px rgba(0, 0, 0, 0.5);
     font: 13px/18px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -1323,7 +1324,7 @@ ul.verdict .bad h4 {
 
 #slidewrapper {
     position: relative;
-    width: 500%; /* 100% * 5 По числу элементов */
+    width: 500%; /* 100% * 5 РџРѕ С‡РёСЃР»Сѓ СЌР»РµРјРµРЅС‚РѕРІ */
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
@@ -1339,7 +1340,7 @@ ul.verdict .bad h4 {
 }
 
 .slide {
-    width: 20%; /* 100% / 5 По числу элементов  */
+    width: 20%; /* 100% / 5 РџРѕ С‡РёСЃР»Сѓ СЌР»РµРјРµРЅС‚РѕРІ  */
     list-style: none;
     display: inline;
     float: left;
@@ -1421,8 +1422,3 @@ ul.verdict .bad h4 {
      -webkit-margin-after: 0em !important;
      -webkit-margin-before: 0em !important;
  }
-
-
-.secondSocial {
-    display: none;
-}

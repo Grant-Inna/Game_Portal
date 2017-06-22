@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 767px) {
   body {
-    background: rgba(255, 255, 255, .4) url(../images/smallBG.jpg) center repeat;
+    background: rgba(255, 255, 255, .4) url(../images/smallBG2.jpg) center repeat;
     /*background-size: cover;*/
   }
 
@@ -35,8 +35,5 @@
       height: 300px;
       justify-content: space-around;
       align-items: center;
-  }
-  .secondSocial {
-      display: block;
   }
 }
