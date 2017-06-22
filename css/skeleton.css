@@ -365,7 +365,8 @@
     .container .fifteen.columns,
     .container .sixteen.columns,
     .container .one-third.column,
-    .container .two-thirds.column {
+    .container .two-thirds.column,
+    .wrapper {
         width: 300px;
     }
 
@@ -396,7 +397,8 @@
 /* Note: Design for a width of 480px */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .container {
+    .container,
+    .wrapper {
         width: 420px;
     }
 

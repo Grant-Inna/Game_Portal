@@ -1521,6 +1521,7 @@ ul {
 
 nav .wrapper {
   position: relative;
+  z-index: 999999999;
 }
 
 .menu li {
@@ -1562,7 +1563,9 @@ nav .wrapper {
   .menu {
     display: none;
     position: absolute;
-    width: 100vw;
+    width: 100%;
+    background: rgba(37, 44, 53, 0.8);
+    background-size: cover;
   }
 
   .menu li {
