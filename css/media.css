@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 767px) {
   body {
-    background: rgba(255, 255, 255, .4) url(../images/4.png) center repeat;
+    background: rgba(255, 255, 255, .4) url(../images/smallBG.jpg) center repeat;
     /*background-size: cover;*/
   }
 
@@ -28,5 +28,15 @@
 
   .ci_widget_sponsors a > img {
     max-width: 281px;
+  }
+  .logo-social {
+      flex-direction: column;
+      display: flex;
+      height: 300px;
+      justify-content: space-around;
+      align-items: center;
+  }
+  .secondSocial {
+      display: block;
   }
 }
