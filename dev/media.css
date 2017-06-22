@@ -16,10 +16,13 @@
     }
     .logo-social {
         height: 100%;
-        flex-direction: column;
+        width: 96%;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
     }
     #navigation {
-        justify-content: center;
+        justify-content: flex-start;
     }
     .columnRevers {
         display: flex;
@@ -27,6 +30,29 @@
     }
     .mobileDown {
         display: run-in;
+    }
+    .wrapper {
+        width: 35%;
+        height: 35px;
+    }
+    .menuToggle {
+        width: 35px;
+        height: 35px;
+        background: url("../images/menu.svg") center no-repeat;
+        background-size: contain;
+    }
+
+    .nav-search {
+    height: 50px;
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+    .logo {
+        width: 100%;
+    }
+    .DESKTOP {
+        display: none !important;
     }
 
 }

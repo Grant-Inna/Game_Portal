@@ -1490,11 +1490,13 @@ ul {
 }
 
 .header {
-  background: url(../images/bg_nav.png) repeat-x;
+  background: #000;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
   border-bottom: solid 1px #30333c;
   background-size: cover;
+  position: relative;
+  z-index: 999999999;
 }
 
 .logo-social {
@@ -1503,10 +1505,10 @@ ul {
   display: -ms-flexbox;
   display: flex;
   height: 60px;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -1519,9 +1521,12 @@ ul {
 
 /* ====== MENU ====== */
 
-nav .wrapper {
-  position: relative;
-  z-index: 999999999;
+.MOBILE {
+  display: none;
+}
+
+.DESKTOP {
+  display: block;
 }
 
 .menu li {
@@ -1535,10 +1540,17 @@ nav .wrapper {
 }
 
 .menuToggle {
-  padding: 8px;
-  padding-right: 60px;
+  height: 100%;
+  width: 100%;
   display: none;
   cursor: pointer;
+}
+
+.menuToggle {
+  width: 100%;
+  height: 100%;
+  background: url("../images/menu.svg") center no-repeat;
+  background-size: contain;
 }
 
 @media only screen and (max-width: 959px) {
@@ -1573,7 +1585,7 @@ nav .wrapper {
   }
 
   .menuToggle {
-    display: inline-block;
+    display: block;
   }
 }
 
