@@ -52,13 +52,13 @@ jQuery(document).ready(function ($) {
     
     // Responsive Menu
     // Create the dropdown base
-    $("<select class='alt-nav' />").appendTo("#navigation");
+    $("<div class='slicknav_menu' />").appendTo("#navigation");
 
-    // Create default option "Go to..."
+   /* // Create default option "Go to..."
     $("<option />", {
        "selected": "selected",
        "value"   : "",
-       "text"    : "Go to..."
+       "text"    : "Перейти..."
     }).appendTo("#navigation select");
 
     // Populate dropdown with menu items
@@ -72,7 +72,7 @@ jQuery(document).ready(function ($) {
 
     $("#navigation select").change(function() {
       window.location = $(this).find("option:selected").val();
-    });
+    });*/
     
     $(".meter > span").each(function() {
 		$(this)

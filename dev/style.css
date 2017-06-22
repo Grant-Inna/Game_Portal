@@ -424,12 +424,9 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus {
 ================================================== */
 .nav-search {
     /*background: url(../images/bg_nav.png) no-repeat;*/
-    height: 60px;
+    height: 100%;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
-
-
 }
 
 .nav {
@@ -447,7 +444,7 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus {
     display: block;
     color: #fff;
     font-size: 13px;
-    padding: 23px;
+    padding: 20px;
     background: url(../images/bg_nav_divider.png) no-repeat right;
     text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
 }
@@ -972,6 +969,7 @@ ul.verdict .bad h4 {
 ================================================== */
 .logo-social {
     margin-bottom: 0;
+
 }
 
 .nav-search {
@@ -1434,6 +1432,7 @@ ul.verdict .bad h4 {
     background: url(../images/bg_nav.png) repeat-x;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
     border-bottom: solid 1px #30333c;
+    background-size: cover;
 }
 .logo-social {
     display: flex;
@@ -1444,4 +1443,45 @@ ul.verdict .bad h4 {
 
 .gamesListContainer {
     margin-top: 50px;
+}
+
+/* ====== MENU ====== */
+nav .wrapper {
+    position: relative;
+}
+
+.menu li {
+    float: left;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+.menuToggle {
+    padding: 8px;
+    padding-right: 60px;
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 770px) {
+    .nav li a {
+        padding: 5px;
+    }
+    .nav li:last-child a {
+        padding-bottom: 10px;
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        width: 100vw;
+    }
+    .menu li {
+        float: none;
+    }
+    .menuToggle {
+       display: inline-block;
+    }
 }

@@ -16,17 +16,37 @@
 
 @media screen and (max-width: 767px) {
   body {
-    background: rgba(255, 255, 255, .4) url(../images/4.png) center repeat;
+    background: rgba(255, 255, 255, .4) url(../images/smallBG2.jpg) center repeat;
     /*background-size: cover;*/
   }
 
   #block-for-slider {
     width: 100%;
-    margin: 40px auto 100px;
+    margin: 140px auto 40px;
     background: rgba(255, 255, 255, 0.3);
   }
 
   .ci_widget_sponsors a > img {
     max-width: 281px;
+  }
+
+  .header {
+    height: auto;
+  }
+
+  .logo-social {
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  #navigation {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }

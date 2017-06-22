@@ -45,38 +45,59 @@
     <header class="sixteen columns">
         <div class="row logo-social container">
             <hgroup class="eight columns alpha">
-                <h1 class="logo nmb"><a href="#">
+                <h1 class="logo nmb"><a href="index.html">
                     <!-- <img src="images/logo.png" alt="IndiGamer" />-->
-                    Game portal
+                    Game Portal
                 </a></h1>
             </hgroup><!-- /hgroup -->
             <div class="row nav-search">
                 <nav id="navigation" class="twelve columns alpha">
-                    <ul class="nav group sf-js-enabled sf-shadow">
-                        <li class="">
-                            <a href="index.html" class="sf-with-ul">Главная<!--<span class="sf-sub-indicator"></span>--></a>
-                            <!--<ul style="display: none; visibility: hidden;">
-                                <li><a href="homepage_alt.php">Homepage Alternative 1</a></li>
-                                <li><a href="homepage_alt2.php">Homepage Alternative 2</a></li>
-                                <li><a href="homepage_narrow1.php">Homepage Narrow sidebar 1</a></li>
-                            </ul>-->
-                        </li>
-                        <li>
-                            <a href="games_list.html" class="sf-with-ul">Игры<!--<span class="sf-sub-indicator"> »</span>--></a>
-                           <!-- <ul style="display: none; visibility: hidden;">
-                                <li><a href="listing_3col.php">Listing 3 columns</a></li>
-                                <li><a href="listing_4col.php">Listing 4 columns</a></li>
-                                <li><a href="listing_sidebar.php">Listing w/ Sidebar</a></li>
-                            </ul>-->
-                        </li>
-                        <li>
-                            <a href="#">О сервисе</a>
-                        </li>
-                        <li>
-                            <a href="#">Вход</a>
-                        </li>
-                    </ul>
-                    <select class="alt-nav"><option selected="selected" value="">Go to...</option><option value="index.php">Home »</option><option value="homepage_alt.php">Homepage Alternative 1</option><option value="homepage_alt2.php">Homepage Alternative 2</option><option value="homepage_narrow1.php">Homepage Narrow sidebar 1</option><option value="listing_2col.php">Listing 2 columns »</option><option value="listing_3col.php">Listing 3 columns</option><option value="listing_4col.php">Listing 4 columns</option><option value="listing_sidebar.php">Listing w/ Sidebar</option><option value="post.php">Post template</option><option value="fullwidth.php">Fullwidth template</option></select></nav><!-- /nav -->
+                    <div class="wrapper">
+                        <div class="menuToggle">Меню</div>
+                        <ul class="nav group sf-js-enabled sf-shadow menu clearfix">
+                            <li class="">
+                                <a href="index.html" class="sf-with-ul">Главная<!--<span class="sf-sub-indicator"></span>--></a>
+                                <!--<ul style="display: none; visibility: hidden;">
+                                    <li><a href="homepage_alt.php">Homepage Alternative 1</a></li>
+                                    <li><a href="homepage_alt2.php">Homepage Alternative 2</a></li>
+                                    <li><a href="homepage_narrow1.php">Homepage Narrow sidebar 1</a></li>
+                                </ul>-->
+                            </li>
+                            <li>
+                                <a href="games_list.html" class="sf-with-ul">Игры<!--<span class="sf-sub-indicator"> »</span>--></a>
+                               <!-- <ul style="display: none; visibility: hidden;">
+                                    <li><a href="listing_3col.php">Listing 3 columns</a></li>
+                                    <li><a href="listing_4col.php">Listing 4 columns</a></li>
+                                    <li><a href="listing_sidebar.php">Listing w/ Sidebar</a></li>
+                                </ul>-->
+                            </li>
+                            <li>
+                                <a href="#">О сервисе</a>
+                            </li>
+                            <li>
+                                <a href="#">Вход</a>
+                            </li>
+                            <li>
+                                <a href="#">Регистрация</a>
+                            </li>
+                        </ul>
+                    </div>
+                 <!--   <ul id="menu">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="games_list.html">Список Игр</a></li>
+                        <li><a href="#">О Сервисе</a></li>
+                        <li><a href="#">Вход</a></li>
+                        <li><a href="#">Регистрация</a></li>
+
+                    </ul>-->
+                    <!--<select class="alt-nav">
+                        <option selected="selected" value="">Перейти...</option>
+                        <option value="index.html">Главная</option>
+                        <option value="games_list.html">Список Игр</option>
+                        <option value="#">О Сервисе</option>
+                        <option value="#">Вход</option>
+                    </select>-->
+                </nav><!-- /nav -->
                 <!--<form method="post" action="action.php" id="search" class="four columns omega">
                     <p><input type="text" title="Search"></p>
                 </form>-->
@@ -676,7 +697,7 @@
 		</div>
 	</div>
 </div><!-- /footer-wrap -->
-<script src="./js/jquery-1.7.2.min.js"></script>
+<script src="./js/jquery-3.0.0.min.js"></script>
 <script src="./js/jquery.flexslider-min.js"></script>
 <script src="./js/superfish.js"></script>
 <!--<script src="fancybox/jquery.fancybox.pack.js"></script>-->
@@ -684,10 +705,12 @@
 <script src="./js/jquery.equalHeights.js"></script>
 <script src="./js/jquery.scripts.js"></script>
 <script src="./js/slider.js"></script>
+<script src="./js/mobileMenu.js"></script>
 
 <!--[if (gte IE 6)&(lte IE 8)]>
 	<script type="text/javascript" src="js/selectivizr-min.js"></script>
 <![endif]-->
+
 
 </body>
 </html>
