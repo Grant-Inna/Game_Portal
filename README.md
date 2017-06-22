@@ -2,4 +2,4 @@
 Based on Indigamer - Responsive Review Site Template
 
 
-[View](https://grant-inna.github.io/Indigamer/.)
+[View](https://grant-inna.github.io/Game_Portal/)
