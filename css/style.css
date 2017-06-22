@@ -559,7 +559,7 @@ textarea:focus {
 ================================================== */
 
 .nav-search {
-  background: url(../images/bg_nav.png) no-repeat;
+  /*background: url(../images/bg_nav.png) no-repeat;*/
   height: 60px;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
@@ -644,6 +644,17 @@ textarea:focus {
 
 .sf-with-ul {
   padding-right: 15px;
+}
+
+#navigation {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 #navigation > select {
@@ -1481,7 +1492,9 @@ ul {
 }
 
 .header {
-  background: #1e2026 url(../images/bg_footer.png) no-repeat bottom center;
+  background: url(../images/bg_nav.png) repeat-x;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
   border-bottom: solid 1px #30333c;
 }
 
@@ -1499,6 +1512,10 @@ ul {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.gamesListContainer {
+  margin-top: 50px;
 }
 
 @media only screen and (max-width: 959px) {

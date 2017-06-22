@@ -423,11 +423,13 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus {
 /* #Navigation
 ================================================== */
 .nav-search {
-    background: url(../images/bg_nav.png) no-repeat;
+    /*background: url(../images/bg_nav.png) no-repeat;*/
     height: 60px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+
+
 }
 
 .nav {
@@ -506,6 +508,10 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus {
 
 .sf-with-ul {
     padding-right: 15px;
+}
+#navigation {
+    display: flex;
+    justify-content: flex-end;
 }
 
 #navigation > select {
@@ -1425,7 +1431,8 @@ ul.verdict .bad h4 {
 
 
 .header {
-    background: #1e2026 url(../images/bg_footer.png) no-repeat bottom center;
+    background: url(../images/bg_nav.png) repeat-x;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
     border-bottom: solid 1px #30333c;
 }
 .logo-social {
@@ -1433,4 +1440,8 @@ ul.verdict .bad h4 {
     height: 60px;
     justify-content: flex-start;
     align-items: center;
+}
+
+.gamesListContainer {
+    margin-top: 50px;
 }
