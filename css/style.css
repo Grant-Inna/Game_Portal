@@ -1274,8 +1274,8 @@ ul.verdict .bad h4 {
 /* Top Rated */
 
 .ci_widget_top ul li {
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 19px;
 }
 
 .ci_widget_top img {
