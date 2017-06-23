@@ -1603,3 +1603,16 @@ ul.verdict .bad h4 {
     flex-direction: column;
     width: 40%
 }
+
+
+
+
+/* Random */
+body > div.container > div:nth-child(1) > div > div.six.columns.omega.sidebar > aside > ul > li:nth-child(2),
+body > div.container > div > div > div.one-third.column.omega.sidebar.narrow > aside > ul > li:nth-child(2) {
+    padding-top: 0;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
