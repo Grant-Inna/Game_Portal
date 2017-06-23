@@ -65,7 +65,7 @@
     .oneGame__wrapper {
         margin-bottom: 10px;
     }
-    .oneGame__wrapper > h1 {
+    .oneGame__title {
         margin-bottom: 15px;
         width: 65%;
     }

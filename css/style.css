@@ -1665,7 +1665,7 @@ ul {
           justify-content: space-between;
 }
 
-.oneGame__wrapper > h1 {
+.oneGame__title {
   width: 50%;
   text-align: center;
   font-size: 30px;
@@ -1676,7 +1676,7 @@ ul {
   transition: all .3s;
 }
 
-.oneGame__wrapper> h1:hover {
+.oneGame__title:hover {
   color: #66e085;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
