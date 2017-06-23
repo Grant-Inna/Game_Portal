@@ -558,7 +558,6 @@ textarea:focus {
 ================================================== */
 
 .nav-search {
-  /*background: url(../images/bg_nav.png) no-repeat;*/
   height: 100%;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
@@ -1166,13 +1165,6 @@ ul.verdict .bad h4 {
   cursor: pointer;
 }
 
-#home-slider .flex-control-paging {
-  bottom: -170px;
-  height: 37px;
-  padding-top: 23px;
-  background: url(../images/bg_paging.png) no-repeat;
-}
-
 .slide-content {
   position: absolute;
   top: 0;
@@ -1203,7 +1195,7 @@ ul.verdict .bad h4 {
 ================================================== */
 
 #footer-wrap {
-  background: #1e2026 url(../images/bg_footer.png) no-repeat bottom center;
+  background: #1e2026;
   border-top: solid 1px #30333c;
   /*padding:50px 0 0 0;*/
 }
