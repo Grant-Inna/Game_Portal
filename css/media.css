@@ -20,12 +20,6 @@
     /*background-size: cover;*/
   }
 
-  #block-for-slider {
-    width: 86%;
-    margin: 60px auto 40px;
-    background: rgba(255, 255, 255, 0.3);
-  }
-
   .ci_widget_sponsors a > img {
     max-width: 281px;
   }
@@ -76,12 +70,11 @@
 
   .wrapper {
     width: 35%;
-    height: 35px;
   }
 
   .menuToggle {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 25px;
     background: url("../images/menu.svg") center no-repeat;
     background-size: contain;
   }
@@ -99,11 +92,18 @@
             align-items: center;
   }
 
-  .logo {
-    width: 100%;
+  .flexS-B {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
   }
+}
 
-  .DESKTOP {
-    display: none !important;
+@media screen and (orientation: landscape) {
+  #block-for-slider {
+    width: 80%;
+    margin: 0 auto 30px;
   }
 }
