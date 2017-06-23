@@ -1549,6 +1549,9 @@ ul.verdict .bad h4 {
 .flexAi-FS {
     align-items: flex-start;
 }
+.mobileFlexFD-C {
+    display: flex;
+}
 .oneGame__wrapper {
     width: 70%;
     margin: 50px auto 30px;
@@ -1559,11 +1562,14 @@ ul.verdict .bad h4 {
 .oneGame__wrapper:hover h1 {
     color: #66e085;;
 }
-.content {
+.onePageContent {
     padding: 15px;
     height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.content__img, .content__Oneimg {
+.content__img, .content__oneImg {
     max-height: 250px;
     max-width: 400px;
 }
@@ -1571,7 +1577,7 @@ ul.verdict .bad h4 {
     margin: 15px 0;
 
 }
-.content__Oneimg {
+.content__oneImg {
     height: 100%;
 }
 .description {

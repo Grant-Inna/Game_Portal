@@ -1639,6 +1639,13 @@ ul {
           align-items: flex-start;
 }
 
+.mobileFlexFD-C {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .oneGame__wrapper {
   width: 70%;
   margin: 50px auto 30px;
@@ -1652,13 +1659,25 @@ ul {
   color: #66e085;
 }
 
-.content {
+.onePageContent {
   padding: 15px;
   height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .content__img,
-.content__Oneimg {
+.content__oneImg {
   max-height: 250px;
   max-width: 400px;
 }
@@ -1667,7 +1686,7 @@ ul {
   margin: 15px 0;
 }
 
-.content__Oneimg {
+.content__oneImg {
   height: 100%;
 }
 

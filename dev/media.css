@@ -54,7 +54,7 @@
         padding-right: 20%;
     }
 
-    .mobileFlexFD-C {
+    .mobileFlexFD-C, .onePageContent {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -63,18 +63,21 @@
         height: 200px;
         width: 90%;
     }
-    .screenshots {
+    .screenshots, .description {
         width: 90%;
         margin: 0 auto;
     }
     .content__img {
         width: 100%;
-        margin: 0 auto;
+        margin: 5px auto;
+    }
+    .content__oneImg {
+        width: 100%;
     }
 
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (max-width: 1350px) and (orientation: landscape) {
     #block-for-slider {
         width: 80%;
         margin: 0 auto 30px;
@@ -84,6 +87,13 @@
 @media screen and (max-width: 767px) and (orientation: landscape) {
     .logo {
         padding-right: 35%;
+    }
+}
+
+@media screen and (min-width: 1350px) and (orientation: landscape) {
+    #block-for-slider {
+        width: 60%;
+        margin: 0 auto 50px;
     }
 }
 
