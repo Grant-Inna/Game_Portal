@@ -47,6 +47,13 @@
     }
 }
 
+@media screen and (orientation: landscape) {
+    #block-for-slider {
+        width: 80%;
+        margin: 0 auto 30px;
+    }
+}
+
 
 /*
 
