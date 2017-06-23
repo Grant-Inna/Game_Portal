@@ -1554,13 +1554,13 @@ ul.verdict .bad h4 {
 }
 .oneGame__wrapper {
     width: 70%;
-    margin: 50px auto 30px;
+    margin: 30px auto 30px;
 }
 .oneGame__wrapper > h1 {
     font-size: 30px;
 }
 .oneGame__wrapper:hover h1 {
-    color: #66e085;;
+    color: #66e085;
 }
 .onePageContent {
     padding: 15px;

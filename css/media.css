@@ -140,9 +140,16 @@
             justify-content: space-between;
   }
 
+  /*.oneGame__wrapper {
+        width: 300px;
+    }*/
+
   .oneGame__wrapper {
-    height: 200px;
-    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .oneGame__wrapper > h1 {
+    margin-bottom: 15px;
   }
 
   .screenshots,
@@ -164,5 +171,11 @@
 @media screen and (max-width: 767px) and (orientation: landscape) {
   .logo {
     padding-right: 35%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .oneGame__wrapper {
+    width: 94%;
   }
 }
