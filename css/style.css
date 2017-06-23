@@ -1359,7 +1359,7 @@ ul.verdict .bad h4 {
   -o-user-select: none;
   user-select: none;
   text-align: center;
-  max-height: 590px;
+  height: auto;
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
