@@ -43,7 +43,7 @@ body {
     background-size: cover;
     box-shadow: inset 0 0 20px 5px rgba(0, 0, 0, 0.5);
     font: 13px/18px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #fff;
+    color: #FFFFF0;
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -webkit-text-size-adjust: 100%;
 }
@@ -1553,14 +1553,24 @@ ul.verdict .bad h4 {
     display: flex;
 }
 .oneGame__wrapper {
-    width: 70%;
+    color: #FFFFF0;
+    min-width: 75%;
     margin: 30px auto 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .oneGame__wrapper > h1 {
+    width: 50%;
+    text-align: center;
     font-size: 30px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 240, 0.4);
+    transition: all .3s;
 }
-.oneGame__wrapper:hover h1 {
+.oneGame__wrapper> h1:hover  {
     color: #66e085;
+    transition: all .3s;
 }
 .onePageContent {
     padding: 15px;

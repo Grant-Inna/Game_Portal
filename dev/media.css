@@ -67,6 +67,7 @@
     }
     .oneGame__wrapper > h1 {
         margin-bottom: 15px;
+        width: 65%;
     }
     .screenshots, .description {
         width: 90%;
