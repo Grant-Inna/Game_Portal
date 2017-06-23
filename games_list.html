@@ -41,58 +41,31 @@
 </head>
 
 <body>
-<header class="row nmb header">
-    <div class="row logo-social container">
-        <h1 class="logo nmb"><a href="index.html">
-            <!-- <img src="images/logo.png" alt="IndiGamer" />-->
-            Game Portal
-        </a></h1>
-        <div class="row nav-search">
-            <nav id="navigation">
-                <div class="wrapper">
-                    <div class="menuToggle"></div>
-                </div>
-                <ul class="nav group sf-js-enabled sf-shadow menu clearfix DESKTOP">
-                    <li class="">
-                        <a href="index.html" class="sf-with-ul">Главная</a>
-                    </li>
-                    <li>
-                        <a href="games_list.html" class="sf-with-ul">Игры<!--<span class="sf-sub-indicator"> »</span>--></a>
-                    </li>
-                    <li>
-                        <a href="#">О сервисе</a>
-                    </li>
-                    <li>
-                        <a href="#">Вход</a>
-                    </li>
-                    <li>
-                        <a href="#">Регистрация</a>
-                    </li>
-                </ul>
-
-            </nav><!-- /nav -->
-
-        </div>
-
+<header class="header">
+    <div class="container mobileHeaderContainer flexS-B">
+        <h1 class="logo"><a href="index.html">Game Portal</a></h1>
+        <nav id="navigation">
+            <div class="wrapper">
+                <div class="menuToggle"></div>
+            </div>
+            <ul class="nav menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="games_list.html">Игры</a></li>
+                <li><a href="#">О Сервисе</a></li>
+                <li><a href="#">Вход</a></li>
+                <li><a href="#">Регистрация</a></li>
+            </ul>
+        </nav>
     </div>
-    <ul class="nav group sf-js-enabled sf-shadow menu clearfix MOBILE">
-        <li class="">
-            <a href="index.html" class="sf-with-ul">Главная</a>
-        </li>
-        <li>
-            <a href="games_list.html" class="sf-with-ul">Игры<!--<span class="sf-sub-indicator"> »</span>--></a>
-        </li>
-        <li>
-            <a href="#">О сервисе</a>
-        </li>
-        <li>
-            <a href="#">Вход</a>
-        </li>
-        <li>
-            <a href="#">Регистрация</a>
-        </li>
-    </ul>
-</header><!-- row -->
+</header>
+
+<aside class="widget group" style="margin-top: 30px">
+    <div class="submit__form" >
+        <!--<a class="submit__link" href="">-->
+        <button class="submit__button">Получить доступ</button>
+        <!--</a>-->
+    </div>
+</aside>
 
 
 <div class="container">
@@ -238,11 +211,6 @@
             </div><!-- /content -->
 
             <div class="one-third column omega sidebar narrow">
-                <aside class="widget group ci_widget_sponsors">
-                    <h3>SPONSORS</h3>
-                    <a href="#"><img alt="" src="http://placehold.it/280x130&amp;text=img1"></a>
-                </aside>
-
                 <aside class="widget group ci_widget_top">
                     <h3>TOP RATED</h3>
                     <ul>
@@ -303,13 +271,41 @@
 
 
 <div id="footer-wrap">
+    <div class="credits-wrap">
+        <footer>
+            <div id="MainFooter">
+                <ul class="list-group">
+                    <li>
+                        <a class="btn btn-default btn-lg btn-get-access" href="#">
+                            Получить доступ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://unsubscribe.center/15551/">
+                            Управление подпиской
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://videomeo.by/static/rules.html">
+                            Пользовательское соглашение
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer-info">
+                    Стоимость подписки: 0,20 р. с НДС за 1 день для абонентов Life. Чтобы остановить подписку, отправьте SMS с текстом СТОП 898 на номер 1445.
+                    Служба поддержки +375 17 328-69-05 (Круглосуточно) &ndsp;
+                    <a href="http://videomeo.by/static/mts-by-rules.html" style="text-decoration: underline; text-align: center">
+                        Условия подписки
+                    </a>
+                </div>
 
-	<div class="credits-wrap">
-		<div class="container">
-			<p class="sixteen columns">A site template by <a href="http://www.cssigniter.com">cssigniter.com</a></p>
-		</div>
-	</div>
+            </div>
+        </footer>
+
+    </div>
 </div><!-- /footer-wrap -->
+
+
 <script src="./js/jquery-3.0.0.min.js"></script>
 <script src="./js/jquery-1.7.2.min.js"></script>
 <script src="./js/jquery.flexslider-min.js"></script>
