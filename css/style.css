@@ -1782,6 +1782,16 @@ ul {
 @media screen and (max-width: 767px) {
   .nav li a {
     font-size: 18px;
+    -webkit-transition: background-color .3s;
+    -o-transition: background-color .3s;
+    transition: background-color .3s;
+  }
+
+  .nav li a:hover {
+    background-color: rgba(93, 255, 134, 0.4);
+    -webkit-transition: background-color .3s;
+    -o-transition: background-color .3s;
+    transition: background-color .3s;
   }
 
   .nav li:last-child a {

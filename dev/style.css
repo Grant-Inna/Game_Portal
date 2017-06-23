@@ -1457,6 +1457,11 @@ ul.verdict .bad h4 {
 @media screen and (max-width: 767px) {
     .nav li a {
         font-size: 18px;
+        transition: background-color .3s;
+    }
+    .nav li a:hover {
+        background-color: rgba(93, 255, 134, 0.4);
+        transition: background-color .3s;
     }
     .nav li:last-child a {
         padding-bottom: 10px;
