@@ -1213,6 +1213,7 @@ ul.verdict .bad h4 {
 
     .logo {
         text-align: center;
+        padding-right: 10%;
     }
 
     .social-links, #search {
@@ -1493,14 +1494,12 @@ ul.verdict .bad h4 {
     text-align: center;
     display: block;
     margin: 0 auto;
+    cursor: pointer;
 }
 .submit__link {
-
+    cursor: pointer;
 }
 .submit__button {
-    animation-name: puls;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
     height: auto;
     width: auto;
     padding: 5px 15px;
@@ -1510,5 +1509,9 @@ ul.verdict .bad h4 {
     font-weight: 600;
     color: #FFFFF0;
     background-color: #66e085;
-    box-shadow: 0 0 5px 0 #FFFFF0
+    box-shadow: 0 0 5px 0 #FFFFF0;
+    cursor: pointer;
+}
+.submit__button:hover {
+    box-shadow: 0 0 10px 1px #FFFFF0;
 }

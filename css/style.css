@@ -1555,6 +1555,7 @@ ul {
   text-align: center;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 
@@ -1607,6 +1608,7 @@ ul {
 
   .logo {
     text-align: center;
+    padding-right: 10%;
   }
 
   .social-links,

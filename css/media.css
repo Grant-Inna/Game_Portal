@@ -99,6 +99,21 @@
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
+
+  .mobileHeaderContainer {
+    width: 96%;
+  }
+
+  .logo {
+    text-align: center;
+    padding-right: 20%;
+  }
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+  .logo {
+    padding-right: 35%;
+  }
 }
 
 @media screen and (orientation: landscape) {
