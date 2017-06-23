@@ -1456,7 +1456,7 @@ ul.verdict .bad h4 {
 
 @media screen and (max-width: 767px) {
     .nav li a {
-        padding: 5px;
+        font-size: 18px;
     }
     .nav li:last-child a {
         padding-bottom: 10px;
@@ -1470,6 +1470,7 @@ ul.verdict .bad h4 {
     }
     .menu li {
         float: none;
+        padding: 7px;
     }
     .menuToggle {
        display: block;
@@ -1514,4 +1515,15 @@ ul.verdict .bad h4 {
 }
 .submit__button:hover {
     box-shadow: 0 0 10px 1px #FFFFF0;
+}
+
+
+
+/*   =========   Footer   =========   */
+.list-group {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-info {
+    text-align: center
 }

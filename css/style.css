@@ -1558,15 +1558,11 @@ ul {
   cursor: pointer;
 }
 
-
+.submit__link {
+  cursor: pointer;
+}
 
 .submit__button {
-  -webkit-animation-name: puls;
-          animation-name: puls;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
   height: auto;
   width: auto;
   padding: 5px 15px;
@@ -1578,6 +1574,28 @@ ul {
   background-color: #66e085;
   -webkit-box-shadow: 0 0 5px 0 #FFFFF0;
           box-shadow: 0 0 5px 0 #FFFFF0;
+  cursor: pointer;
+}
+
+.submit__button:hover {
+  -webkit-box-shadow: 0 0 10px 1px #FFFFF0;
+          box-shadow: 0 0 10px 1px #FFFFF0;
+}
+
+/*   =========   Footer   =========   */
+
+.list-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+
+.footer-info {
+  text-align: center;
 }
 
 @media only screen and (max-width: 959px) {
@@ -1630,7 +1648,7 @@ ul {
 
 @media screen and (max-width: 767px) {
   .nav li a {
-    padding: 5px;
+    font-size: 18px;
   }
 
   .nav li:last-child a {
@@ -1647,6 +1665,7 @@ ul {
 
   .menu li {
     float: none;
+    padding: 7px;
   }
 
   .menuToggle {
