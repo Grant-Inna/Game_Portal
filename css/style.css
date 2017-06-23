@@ -1589,13 +1589,93 @@ ul {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: column-reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-info {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 30px;
+}
+
+.MainFooter {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/*   =========   OneGame   =========   */
+
+.flexS-A {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
           justify-content: space-around;
 }
 
-.footer-info {
-  text-align: center;
+.flexAi-C {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flexAi-FS {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.oneGame__img-wrapper {
+  width: 70%;
+  margin: 50px auto 30px;
+}
+
+.oneGame__img-wrapper > h1 {
+  font-size: 30px;
+}
+
+.oneGame__img-wrapper:hover h1 {
+  color: #66e085;
+}
+
+.content {
+  padding: 15px;
+}
+
+.content__img,
+.content__Oneimg {
+  max-height: 250px;
+  max-width: 400px;
+}
+
+.content__img {
+  margin: 15px 0;
+}
+
+.content__Oneimg {
+  height: 100%;
+}
+
+.description {
+  width: 50%;
+}
+
+.screenshot {
+  width: 40%;
 }
 
 @media only screen and (max-width: 959px) {
