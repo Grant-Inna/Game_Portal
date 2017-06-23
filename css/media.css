@@ -108,6 +108,37 @@
     text-align: center;
     padding-right: 20%;
   }
+
+  .mobileFlexFD-C {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .oneGame__wrapper {
+    height: 200px;
+    width: 90%;
+  }
+
+  .screenshots {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .content__img {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 767px) and (orientation: landscape) {

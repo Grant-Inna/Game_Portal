@@ -1639,21 +1639,22 @@ ul {
           align-items: flex-start;
 }
 
-.oneGame__img-wrapper {
+.oneGame__wrapper {
   width: 70%;
   margin: 50px auto 30px;
 }
 
-.oneGame__img-wrapper > h1 {
+.oneGame__wrapper > h1 {
   font-size: 30px;
 }
 
-.oneGame__img-wrapper:hover h1 {
+.oneGame__wrapper:hover h1 {
   color: #66e085;
 }
 
 .content {
   padding: 15px;
+  height: auto;
 }
 
 .content__img,
@@ -1675,6 +1676,15 @@ ul {
 }
 
 .screenshot {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 40%;
 }
 

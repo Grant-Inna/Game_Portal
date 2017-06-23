@@ -53,6 +53,25 @@
         text-align: center;
         padding-right: 20%;
     }
+
+    .mobileFlexFD-C {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .oneGame__wrapper {
+        height: 200px;
+        width: 90%;
+    }
+    .screenshots {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .content__img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
 }
 
 @media screen and (orientation: landscape) {
