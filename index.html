@@ -41,10 +41,10 @@
 </head>
 
 <body>
-<header class="row nmb header">
+<!--<header class="row nmb header">
         <div class="row logo-social container">
                 <h1 class="logo nmb"><a href="index.html">
-                    <!-- <img src="images/logo.png" alt="IndiGamer" />-->
+                    &lt;!&ndash; <img src="images/logo.png" alt="IndiGamer" />&ndash;&gt;
                     Game Portal
                 </a></h1>
             <div class="row nav-search">
@@ -57,7 +57,7 @@
                             <a href="index.html" class="sf-with-ul">Главная</a>
                         </li>
                         <li>
-                            <a href="games_list.html" class="sf-with-ul">Игры<!--<span class="sf-sub-indicator"> »</span>--></a>
+                            <a href="games_list.html" class="sf-with-ul">Игры&lt;!&ndash;<span class="sf-sub-indicator"> »</span>&ndash;&gt;</a>
                         </li>
                         <li>
                             <a href="#">О сервисе</a>
@@ -70,7 +70,7 @@
                         </li>
                     </ul>
 
-                </nav><!-- /nav -->
+                </nav>&lt;!&ndash; /nav &ndash;&gt;
 
             </div>
 
@@ -80,7 +80,7 @@
             <a href="index.html" class="sf-with-ul">Главная</a>
         </li>
         <li>
-            <a href="games_list.html" class="sf-with-ul">Игры<!--<span class="sf-sub-indicator"> »</span>--></a>
+            <a href="games_list.html" class="sf-with-ul">Игры&lt;!&ndash;<span class="sf-sub-indicator"> »</span>&ndash;&gt;</a>
         </li>
         <li>
             <a href="#">О сервисе</a>
@@ -92,10 +92,29 @@
             <a href="#">Регистрация</a>
         </li>
     </ul>
-</header><!-- row -->
+</header>&lt;!&ndash; row &ndash;&gt;-->
+<header class="header">
+    <div class="container flexS-B">
+        <h1 class="logo"><a href="index.html">Game Portal</a></h1>
+        <nav id="navigation">
+            <div class="wrapper">
+                <div class="menuToggle"></div>
+            </div>
+            <ul class="nav menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="games_list.html">Игры</a></li>
+                <li><a href="#">О Сервисе</a></li>
+                <li><a href="#">Вход</a></li>
+                <li><a href="#">Регистрация</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
 
-<div class="container">
+
+
+
 	
 
     <div id="block-for-slider">
@@ -121,7 +140,7 @@
     </div>
 
 
-
+<div class="container">
 
 
 
@@ -295,10 +314,18 @@
 			</div><!-- /content -->
 			
 			<div class="six columns omega sidebar">
-							<aside class="widget group ci_widget_sponsors">
+							<!--<aside class="widget group ci_widget_sponsors">
 					<h3>SPONSORS</h3>
 					<a href="#"><img alt="" src="http://placehold.it/320x130&amp;text=img1" /></a>
-				</aside>
+				</aside>-->
+                <aside class="widget group">
+                    <form class="submit__form" action="">
+                        <a class="submit__link" href="">
+                            <button class="submit__button">ПОДПИСАТЬСЯ</button>
+                        </a>
+                    </form>
+                </aside>
+
 
 				<aside class="widget group ci_widget_top">
 					<h3>TOP RATED</h3>
