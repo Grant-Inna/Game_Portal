@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Game Portal</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="True">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:700">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!--<link rel="stylesheet" href="fancybox/jquery.fancybox.css">-->
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container mobileHeaderContainer flexS-B">
+        <h1 class="logo"><a href="index.html">Game Portal</a></h1>
+        <nav id="navigation">
+            <div class="wrapper">
+                <div class="menuToggle"></div>
+            </div>
+            <ul class="nav menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="games_list.html">Игры</a></li>
+                <li><a href="one_game.html">Сылка на страницу одной игры (ВРЕМЕННО!)</a></li>
+                <li><a href="./log_in.html">Вход</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="container containerLog">
+    <div class="noNum">
+        <h4>Номер телефона не найден!</h4>
+    </div>
+
+    <main class="log__wrapper">
+        <h3 class="log__title">Введите ваш код или номер телефона:</h3>
+        <form id="loginForm" method="post" action="./restore.html" class="log__form">
+            <input type="text" placeholder="Введите ваш код или номер телефона:" name="phone" class="log__inputNum">
+            <button type="submit" class="log__button">Отправить</button>
+            <h6 class="log__txt">или</h6>
+            <input type="hidden" name="_token" value="Kd0u1ufXWGnjHaDYGh54ktyH0qOpqENvCdmHjgNG">
+            <div class="log__getNew">
+                <a class="log__getNew-link">Получить новый код</a>
+            </div>
+        </form>
+
+    </main>
+
+</div><!-- /container -->
+
+<div id="footer-wrap">
+	<div class="credits-wrap">
+            <footer>
+                <div id="MainFooter">
+                    <ul class="list-group">
+                        <li>
+                            <a class="btn btn-default btn-lg btn-get-access" href="#">
+                                Получить доступ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://unsubscribe.center/15551/">
+                                Управление подпиской
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://videomeo.by/static/rules.html">
+                                Пользовательское соглашение
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="footer-info">
+                        Стоимость подписки: 0,20 р. с НДС за 1 день для абонентов Life. Чтобы остановить подписку, отправьте SMS с текстом СТОП 898 на номер 1445.
+                        Служба поддержки +375 17 328-69-05 (Круглосуточно) &nbsp;&nbsp;&nbsp;
+                        <a href="http://videomeo.by/static/mts-by-rules.html" style="text-decoration: underline; text-align: center">
+                            Условия подписки
+                        </a>
+                    </div>
+
+                </div>
+            </footer>
+
+	</div>
+</div><!-- /footer-wrap -->
+
+
+<script src="./js/jquery-3.0.0.min.js"></script>
+<script src="./js/jquery-1.7.2.min.js"></script>
+<script src="./js/jquery.flexslider-min.js"></script>
+<script src="./js/superfish.js"></script>
+<!--<script src="fancybox/jquery.fancybox.pack.js"></script>-->
+<script src="./js/jquery.formLabels1.0.js"></script>
+<script src="./js/jquery.equalHeights.js"></script>
+<script src="./js/jquery.scripts.js"></script>
+<script src="./js/slider.js"></script>
+<script src="./js/mobileMenu.js"></script>
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+	<script type="text/javascript" src="js/selectivizr-min.js"></script>
+<![endif]-->
+
+
+</body>
+</html>
