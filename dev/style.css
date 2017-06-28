@@ -1609,3 +1609,124 @@ body > div.container > div > div > div.one-third.column.omega.sidebar.narrow > a
 .btn {
     margin-bottom: 10px;
 }
+
+
+/*      LOG FORM        */
+.containerLog {
+    height: 100%;
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.log__wrapper {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    margin: auto;
+
+    background: rgba(0, 0, 0, .3);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.log__title {
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+.log__form {
+    box-sizing: border-box !important;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.log__inputNum {
+    color: #f8f8f8;
+    margin: 15px auto;
+    width: 100%;
+    font-size: 1.5rem !important;
+    text-align: center;
+    padding: 8px 0 !important;
+
+}
+.log__button {
+    margin: 15px auto;
+    min-width: 100%;
+    display: block;
+    font-weight: bold;
+    border-radius: 3px;
+    text-transform: uppercase;
+    line-height: 1;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    -o-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    vertical-align: middle;
+    border: 1px solid transparent;;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: #fff;
+
+}
+.log__txt {
+    text-transform: uppercase;
+}
+.log__getNew {
+    margin: 15px auto;
+    min-width: 100%;
+    display: block;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: #125f82;
+    padding: 10px 0;
+    text-align: center;
+}
+.log__getNew-link {
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.log__getNew-link:hover, .log__button:hover {
+    text-decoration: underline;
+    color: #000;
+}
+.noNum {
+    color: #dc2222;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 800px) {
+    .containerLog {
+        width: 90% !important;
+        min-height: 70vh;
+    }
+    .log__form {
+        width: 90%;
+    }
+    .log__inputNum {
+        font-size: 1rem !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    .containerLog {
+        width: 100% !important;
+        min-height: 70vh;
+    }
+    .log__form {
+        width: 90%;
+    }
+    .log__inputNum {
+        font-size: .9rem !important;
+    }
+}
